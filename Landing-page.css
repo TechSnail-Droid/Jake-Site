@@ -1,7 +1,12 @@
+*{
+    margin: 0;
+    
+}
 .main-body{
     background-color: #073679;
     font-family:Roboto, sans-serif;
     min-width: 500px;
+    
 }
 @import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap');
 
@@ -41,6 +46,7 @@
     padding-right:250px;
     align-items: center;
     padding-bottom:10px;
+    
 }
 .cartoon-link{
     text-decoration: none;
@@ -82,7 +88,7 @@
     padding-left: 20px;
     background-color: rgb(107, 13, 247);
     height: 300px;
-    width:100vw;
+    
     padding-right:10px;
     
 }
@@ -131,7 +137,7 @@
     justify-content: center;
     align-items: center;
     background-color: white;
-    width:100vw;
+    
     
 }
 .jack-background{
@@ -157,12 +163,14 @@
     
 }
 .fourth-section{
-    
+    display:flex;
     background-color: orange;
-    width:100%;
+    
     height:450px;
     text-align: left;
     padding-top:10px;
+    margin:0;
+    justify-content: space-between;
     
 }
 .fourth-title{
@@ -171,10 +179,11 @@
     font-weight: bold;
     margin-left:300px;
     padding-left:20px;
+
 }
 .skills{
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     font-family: Roboto, Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -189,8 +198,11 @@
 }
 .copyright{
     text-align: center;
-    color:white;
+    color:black;
     font-size: 20px;
+    background-color: darkorchid;
+    margin:0;
+    
 }
 .viola-button{
     background-color: rgb(70, 144, 255);
