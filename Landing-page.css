@@ -15,6 +15,10 @@
     
     
 }
+.snail-button{
+    background: none;
+    border:none;
+}
 .header{
     justify-content: space-between;
     color:white;
@@ -132,7 +136,6 @@
 }
 .third-section{
     padding-right:20px;
-    position:relative;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -163,17 +166,16 @@
     
 }
 .fourth-section{
-    display:flex;
-    background-color: orange;
     
+    background-color: orange;
     height:450px;
     text-align: left;
     padding-top:10px;
-    margin:0;
     justify-content: space-between;
     
 }
 .fourth-title{
+    
     font-family:Roboto,Arial, Helvetica, sans-serif;
     font-size:30px;
     font-weight: bold;
@@ -183,7 +185,7 @@
 }
 .skills{
     display:flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     font-family: Roboto, Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -219,3 +221,10 @@
     color:white;
     font-size: 20px;
 }
+@media(max-width: 1200px){
+    .main-body{
+        min-width: 1200px;
+    }
+}
+
+
